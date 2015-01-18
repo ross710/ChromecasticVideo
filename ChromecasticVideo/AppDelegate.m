@@ -7,16 +7,40 @@
 //
 
 #import "AppDelegate.h"
+#import <Fabric/Fabric.h>
+#import <Crashlytics/Crashlytics.h>
+#import <MoPub/MoPub.h>
+#import "CastManager.h"
+
 
 @interface AppDelegate ()
-
 @end
 
 @implementation AppDelegate
 
 
+
+
+#pragma mark - access appdelegate
++(AppDelegate *) sharedInstance {
+    return (AppDelegate *)[[UIApplication sharedApplication] delegate];
+}
+
+#pragma mark - AppDelegate
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [Fabric with:@[CrashlyticsKit, MoPubKit]];
+
+    //Initalize CastManager
+    [CastManager sharedInstance];
+    
+    
+    //Defaults
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    [[UINavigationBar appearance] setTitleTextAttributes:
+     [NSDictionary dictionaryWithObjectsAndKeys:
+      [UIColor whiteColor],
+      NSForegroundColorAttributeName,
+      nil]];    // Override point for customization after application launch.
     return YES;
 }
 

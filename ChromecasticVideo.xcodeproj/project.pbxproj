@@ -9,11 +9,22 @@
 /* Begin PBXBuildFile section */
 		9144F5D51A6C021D001FEA61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9144F5D41A6C021D001FEA61 /* main.m */; };
 		9144F5D81A6C021D001FEA61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9144F5D71A6C021D001FEA61 /* AppDelegate.m */; };
-		9144F5DB1A6C021D001FEA61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9144F5DA1A6C021D001FEA61 /* ViewController.m */; };
 		9144F5DE1A6C021D001FEA61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9144F5DC1A6C021D001FEA61 /* Main.storyboard */; };
 		9144F5E01A6C021D001FEA61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9144F5DF1A6C021D001FEA61 /* Images.xcassets */; };
 		9144F5E31A6C021D001FEA61 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9144F5E11A6C021D001FEA61 /* LaunchScreen.xib */; };
 		9144F5EF1A6C021D001FEA61 /* ChromecasticVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9144F5EE1A6C021D001FEA61 /* ChromecasticVideoTests.m */; };
+		9144F5FB1A6C0256001FEA61 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9144F5F91A6C0256001FEA61 /* Crashlytics.framework */; };
+		9144F5FC1A6C0256001FEA61 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9144F5FA1A6C0256001FEA61 /* Fabric.framework */; };
+		9144F6001A6C02BC001FEA61 /* MoPub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9144F5FE1A6C02BB001FEA61 /* MoPub.framework */; };
+		9144F6011A6C02BC001FEA61 /* MoPub.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9144F5FF1A6C02BC001FEA61 /* MoPub.bundle */; };
+		9144F6031A6C0A9B001FEA61 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9144F6021A6C0A9B001FEA61 /* SystemConfiguration.framework */; };
+		9144F6051A6C0AAA001FEA61 /* MediaAccessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9144F6041A6C0AAA001FEA61 /* MediaAccessibility.framework */; };
+		9144F6071A6C0AB9001FEA61 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9144F6061A6C0AB9001FEA61 /* CoreText.framework */; };
+		9144F60A1A6C0E3F001FEA61 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9144F6091A6C0E3F001FEA61 /* MainViewController.m */; };
+		9144F60E1A6C1551001FEA61 /* CastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9144F60D1A6C1551001FEA61 /* CastManager.m */; };
+		9144F6111A6C1F66001FEA61 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9144F6101A6C1F66001FEA61 /* QuartzCore.framework */; };
+		9144F6141A6C43E7001FEA61 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9144F6131A6C43E7001FEA61 /* WebViewController.m */; };
+		A29406DA32F140C690527B99 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF548CDBB4640D7BBE4B266 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +38,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24309386D2224CF6915864EF /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		4EF548CDBB4640D7BBE4B266 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9144F5CF1A6C021D001FEA61 /* ChromecasticVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChromecasticVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9144F5D31A6C021D001FEA61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9144F5D41A6C021D001FEA61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9144F5D61A6C021D001FEA61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9144F5D71A6C021D001FEA61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9144F5D91A6C021D001FEA61 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9144F5DA1A6C021D001FEA61 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9144F5DD1A6C021D001FEA61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9144F5DF1A6C021D001FEA61 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9144F5E21A6C021D001FEA61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9144F5E81A6C021D001FEA61 /* ChromecasticVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChromecasticVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9144F5ED1A6C021D001FEA61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9144F5EE1A6C021D001FEA61 /* ChromecasticVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChromecasticVideoTests.m; sourceTree = "<group>"; };
+		9144F5F91A6C0256001FEA61 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		9144F5FA1A6C0256001FEA61 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		9144F5FE1A6C02BB001FEA61 /* MoPub.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MoPub.framework; sourceTree = "<group>"; };
+		9144F5FF1A6C02BC001FEA61 /* MoPub.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MoPub.bundle; sourceTree = "<group>"; };
+		9144F6021A6C0A9B001FEA61 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9144F6041A6C0AAA001FEA61 /* MediaAccessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaAccessibility.framework; path = System/Library/Frameworks/MediaAccessibility.framework; sourceTree = SDKROOT; };
+		9144F6061A6C0AB9001FEA61 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		9144F6081A6C0E3F001FEA61 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		9144F6091A6C0E3F001FEA61 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		9144F60C1A6C1551001FEA61 /* CastManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CastManager.h; sourceTree = "<group>"; };
+		9144F60D1A6C1551001FEA61 /* CastManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CastManager.m; sourceTree = "<group>"; };
+		9144F6101A6C1F66001FEA61 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9144F6121A6C43E7001FEA61 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		9144F6131A6C43E7001FEA61 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +72,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9144F6111A6C1F66001FEA61 /* QuartzCore.framework in Frameworks */,
+				9144F6071A6C0AB9001FEA61 /* CoreText.framework in Frameworks */,
+				9144F6051A6C0AAA001FEA61 /* MediaAccessibility.framework in Frameworks */,
+				9144F6031A6C0A9B001FEA61 /* SystemConfiguration.framework in Frameworks */,
+				9144F5FB1A6C0256001FEA61 /* Crashlytics.framework in Frameworks */,
+				9144F6001A6C02BC001FEA61 /* MoPub.framework in Frameworks */,
+				9144F5FC1A6C0256001FEA61 /* Fabric.framework in Frameworks */,
+				A29406DA32F140C690527B99 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +99,8 @@
 				9144F5D11A6C021D001FEA61 /* ChromecasticVideo */,
 				9144F5EB1A6C021D001FEA61 /* ChromecasticVideoTests */,
 				9144F5D01A6C021D001FEA61 /* Products */,
+				24309386D2224CF6915864EF /* Pods.xcconfig */,
+				DA9A17111B5041D89311A951 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,11 +118,13 @@
 			children = (
 				9144F5D61A6C021D001FEA61 /* AppDelegate.h */,
 				9144F5D71A6C021D001FEA61 /* AppDelegate.m */,
-				9144F5D91A6C021D001FEA61 /* ViewController.h */,
-				9144F5DA1A6C021D001FEA61 /* ViewController.m */,
+				9144F60F1A6C1556001FEA61 /* CastManager */,
+				9144F60B1A6C0E46001FEA61 /* Main */,
+				9144F6151A6C43F1001FEA61 /* Web */,
 				9144F5DC1A6C021D001FEA61 /* Main.storyboard */,
 				9144F5DF1A6C021D001FEA61 /* Images.xcassets */,
 				9144F5E11A6C021D001FEA61 /* LaunchScreen.xib */,
+				9144F5FD1A6C025E001FEA61 /* Frameworks */,
 				9144F5D21A6C021D001FEA61 /* Supporting Files */,
 			);
 			path = ChromecasticVideo;
@@ -119,6 +156,56 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9144F5FD1A6C025E001FEA61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9144F5FE1A6C02BB001FEA61 /* MoPub.framework */,
+				9144F5FF1A6C02BC001FEA61 /* MoPub.bundle */,
+				9144F5F91A6C0256001FEA61 /* Crashlytics.framework */,
+				9144F5FA1A6C0256001FEA61 /* Fabric.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9144F60B1A6C0E46001FEA61 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9144F6081A6C0E3F001FEA61 /* MainViewController.h */,
+				9144F6091A6C0E3F001FEA61 /* MainViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		9144F60F1A6C1556001FEA61 /* CastManager */ = {
+			isa = PBXGroup;
+			children = (
+				9144F60C1A6C1551001FEA61 /* CastManager.h */,
+				9144F60D1A6C1551001FEA61 /* CastManager.m */,
+			);
+			name = CastManager;
+			sourceTree = "<group>";
+		};
+		9144F6151A6C43F1001FEA61 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				9144F6121A6C43E7001FEA61 /* WebViewController.h */,
+				9144F6131A6C43E7001FEA61 /* WebViewController.m */,
+			);
+			name = Web;
+			sourceTree = "<group>";
+		};
+		DA9A17111B5041D89311A951 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9144F6101A6C1F66001FEA61 /* QuartzCore.framework */,
+				9144F6061A6C0AB9001FEA61 /* CoreText.framework */,
+				9144F6041A6C0AAA001FEA61 /* MediaAccessibility.framework */,
+				9144F6021A6C0A9B001FEA61 /* SystemConfiguration.framework */,
+				4EF548CDBB4640D7BBE4B266 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9144F5F21A6C021D001FEA61 /* Build configuration list for PBXNativeTarget "ChromecasticVideo" */;
 			buildPhases = (
+				E8AE7EFFEDF04BBEAA5184B0 /* Check Pods Manifest.lock */,
 				9144F5CB1A6C021D001FEA61 /* Sources */,
 				9144F5CC1A6C021D001FEA61 /* Frameworks */,
 				9144F5CD1A6C021D001FEA61 /* Resources */,
+				9144F5F81A6C0242001FEA61 /* ShellScript */,
+				7F454D9547A5435BBF98F7BB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +292,7 @@
 				9144F5DE1A6C021D001FEA61 /* Main.storyboard in Resources */,
 				9144F5E31A6C021D001FEA61 /* LaunchScreen.xib in Resources */,
 				9144F5E01A6C021D001FEA61 /* Images.xcassets in Resources */,
+				9144F6011A6C02BC001FEA61 /* MoPub.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +305,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7F454D9547A5435BBF98F7BB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9144F5F81A6C0242001FEA61 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 0bfc063a764c6bff699a6e22708e2b2d3569df47 1f2384059c0b39de406ea40c4b43a6b03df363b3a79962a6854d9bf6db69995e\n";
+		};
+		E8AE7EFFEDF04BBEAA5184B0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9144F5CB1A6C021D001FEA61 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9144F5DB1A6C021D001FEA61 /* ViewController.m in Sources */,
 				9144F5D81A6C021D001FEA61 /* AppDelegate.m in Sources */,
+				9144F6141A6C43E7001FEA61 /* WebViewController.m in Sources */,
 				9144F5D51A6C021D001FEA61 /* main.m in Sources */,
+				9144F60E1A6C1551001FEA61 /* CastManager.m in Sources */,
+				9144F60A1A6C0E3F001FEA61 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,9 +482,15 @@
 		};
 		9144F5F31A6C021D001FEA61 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24309386D2224CF6915864EF /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ChromecasticVideo",
+				);
 				INFOPLIST_FILE = ChromecasticVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,9 +498,15 @@
 		};
 		9144F5F41A6C021D001FEA61 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24309386D2224CF6915864EF /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ChromecasticVideo",
+				);
 				INFOPLIST_FILE = ChromecasticVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -414,6 +565,7 @@
 				9144F5F41A6C021D001FEA61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9144F5F51A6C021D001FEA61 /* Build configuration list for PBXNativeTarget "ChromecasticVideoTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +574,7 @@
 				9144F5F71A6C021D001FEA61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
